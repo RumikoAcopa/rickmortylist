@@ -1,6 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-import ResidentList from "./ResidentList"
+//import ResidentList from "./ResidentList";
+import GetList from "./components/GetList";
+
 
 function App() {
   return (
