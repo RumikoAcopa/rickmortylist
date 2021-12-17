@@ -1,21 +1,42 @@
-import React, { Component } from "react";
+// import React, { Component } from "react";
 
-class ResidentList extends Component {
+// class ResidentList extends Component {
 
-  constructor(props) {
-    super(props);
+//   constructor(props) {
+//     super(props);
 
-    this.state = {
-      list: []
-    }
-  }
+//     this.state = {
+//       data: []
+//     }
+//   }
 
-  render() {
-    return (
-      <div>Hello</div>
-    )
-  }
+//   componentDidMount() {
 
-}
+//     fetch('https://rickandmortyapi.com/', {
 
-export default ResidentList;
+//       method: 'POST',
+
+//       headers: {
+//         'Content-Type': 'application/json'
+//       },
+
+//       body: JSON.stringify({
+//         name: "Resident 1"
+//       })
+
+//         .then((res => {
+//           res.json()
+//         }))
+//         .then(data => console.log(data))
+    
+//     })
+    
+//     render() { 
+//       return (
+//         <div></div>
+//       )
+//     };
+  
+//   };
+
+// export default ResidentList;
